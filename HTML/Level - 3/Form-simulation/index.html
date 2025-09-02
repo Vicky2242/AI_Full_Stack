@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+     <h2>Registration Form</h2>
+      <form>
+      <div><label for="name">Name:</label></div> 
+      <input type="text" id="name" name="name" required>
+      <br>
+      <br>
+
+      <div><label for="email">Email:</label></div>
+      
+      <input type="email" id="email" name="email" required>
+      <br>
+      <br>
+
+      <div><label for="password">Password:</label></div>
+      
+      <input type="password" id="password" name="password" required>
+      <br>
+      <br>
+
+      <div><label>Gender:</label></div>
+      <div class="gender-options">
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+      </div>
+      <br>
+
+      <div><label>Hobbies:</label></div>
+      <div class="hobby-options">
+        <label><input type="checkbox" name="hobby" value="reading"> Reading</label>
+        <label><input type="checkbox" name="hobby" value="coding"> Coding</label>
+        <label><input type="checkbox" name="hobby" value="traveling"> Traveling</label>
+        <label><input type="checkbox" name="hobby" value="music"> Music</label>
+      </div>
+      <br>
+      <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>

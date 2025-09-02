@@ -1,0 +1,40 @@
+INTRO
+-----
+
+
+
+
+
+
+
+Flex
+----
+
+
+one dimensional
+spread spacing & distribution between elements
+
+flex-work only when the parent is flex
+
+display:flex;
+
+flex container: (parent)
+
+flex-direction: row/col
+flex-wrap
+justify-content(horizontal)
+align-items(vertical) when the space is there only use flex
+
+
+flex items: (child)
+
+order - place change
+flex-grow 1, 2, 3
+flex-shrink ---
+flex-basis - width
+align-self - use to child
+
+
+
+pseudo-class
+combinator - nth-child

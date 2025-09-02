@@ -1,0 +1,81 @@
+.heading-1 {
+ color: rgb(255, 0, 0, 0.7);
+ text-align: center;
+ font-size: 30px;
+ font-style: oblique;
+}
+
+body{
+ background-color: lightblue;
+}
+
+.para-1 {
+ padding: 0px 50px;
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.button-submit {
+    background-color: rgb(255, 0, 0, 0.5);
+    padding: 10px 25px;
+    border-radius: 50px;
+    position: relative;
+    left: 48%;
+    margin-bottom: 20px;
+}
+
+.button-submit :hover {
+    background-color: rgb(227, 226, 226);
+}
+
+#example1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 8px;
+    margin-bottom: 10px;
+}
+
+#example2 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 8px #888888;
+    margin-bottom: 10px;
+}
+
+#example3 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgb(255, 0, 0, 0.3);
+}
+
+.three {
+    position: relative;
+    left: 46%;
+    margin-bottom: 20px;
+}
+
+.list {
+    list-style-type: circle;
+}
+
+.img-1{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 42%;
+    border: 5px solid rgb(255, 0, 0, 0.7);
+}
+
+.c-text {
+    position: relative;
+    left: 43%;
+}
+
+.c-text a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.c-text a:hover {
+    color: #10b981
+}
