@@ -1,0 +1,300 @@
+:root{
+    --main-color: #651FFF;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a,
+span{
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.my-text-primary{
+    color: var(--main-color);
+}
+
+/* Section padding */
+.banner, 
+.hero,
+.lightning,
+.team,
+.privacy,
+.simple,
+.footer{
+    padding: 100px 0px;
+}
+
+/* heading size */
+
+h1{
+    font-weight: 700;
+    font-size: 56px;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* banner */
+
+.banner{
+    background-color: #EBE5FA;
+}
+
+.lightning-wrapper > div > div > div{
+    background-color: var(--main-color);
+    padding: 60px 30px;
+    border-radius: 20px;
+    color: #ffff;
+}
+
+.lightning-wrapper > div > div > div a{
+    color: #ffff;
+}
+
+/* Team */
+
+.team-wrapper > div > div > div{
+    padding: 50px 50px 0px 50px;
+    border-radius: 20px;
+}
+
+.team-wrapper > div > div:nth-child(1) > div{
+    background-color: #FFF7ED;
+}
+
+.team-wrapper > div > div:nth-child(2) > div{
+    background-color: #E0F7FA;
+}
+
+.team-wrapper-2{
+    background-color: #E0F7FA;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.privacy h2{
+    line-height: 64px;
+}
+
+.privacy h5{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.privacy h6{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.privacy-wrapper > div > div:nth-child(2) > div{
+    background-color: #ffff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 24px 0px #e4e4e4;
+}
+
+.simple-wrapper h4{
+    border-bottom: 2px solid #0000;
+}
+
+.simple-wrapper > div > div:nth-child(2) > div{
+    background-color: var(--main-color);
+    color: #ffff;
+}
+
+.simple-wrapper ul{
+    display: inline-block;
+    position: relative;
+    
+}
+
+/* .simple-wrapper ul li{
+    display: flex;
+    justify-content: center;
+} */
+
+.work {
+  padding: 60px 0;
+  background: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+.work h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.work p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.work-steps {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 50px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.work-wrapper {
+  text-align: center;
+  max-width: 300px;
+}
+
+.work-wrapper img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.work-wrapper h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.work-wrapper p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.started {
+  padding: 70px 0;
+  font-family: "Arial", sans-serif;
+  background: #fff;
+}
+
+.started-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.started-header h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.started-header p {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 8px;
+}
+
+.btn-account {
+  background: #6c2ff9;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-account:hover {
+  background: #4a0fc4;
+}
+
+.started-cards {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 300px;
+  padding: 25px;
+  border-radius: 12px;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.card.individual {
+  background: #6c2ff9;
+  color: #fff;
+}
+
+.card.business {
+  background: #f5f3ff;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.card-link {
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+.card.individual .card-link {
+  color: #fff;
+}
+
+.card.business .card-link {
+  color: #6c2ff9;
+}
+
+.card-link:hover {
+  opacity: 0.8;
+}
+
+.card-illustration {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  max-width: 160px;
+}
+.card-illustration img {
+  width: 100%;
+}
+
+
+
+.footer h4{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer ul li{
+    margin-bottom: 15px;
+}
+
