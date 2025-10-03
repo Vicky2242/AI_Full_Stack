@@ -38,3 +38,19 @@ align-self - use to child
 
 pseudo-class
 combinator - nth-child
+
+
+Responsive
+
+Steps forward - min - kila to maela
+Steps Backward - max maela to kila
+
+@media only screen and (min/max) 
+
+
+container ku max-width
+
+
+
+margin-top & bottom button ottinu irukum bothu work aagathu left & right aagum but not use
+display: inline
