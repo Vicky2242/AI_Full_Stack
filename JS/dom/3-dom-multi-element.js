@@ -42,3 +42,12 @@ console.log(lists);
 lists.forEach(function(element){
     element.style.color = "blue";
 })
+
+//NodeList
+const listItems = document.querySelectorAll(".collection-item");
+
+// console.log(Array.isArray(listItems));
+
+listItems.forEach(function(element, index, array){
+    console.log(element, index, array);
+})
