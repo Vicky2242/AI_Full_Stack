@@ -1,0 +1,368 @@
+/* Comman Styles */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #2E2F35;
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+  color: #2E2F35;
+}
+
+h1,h2,h3,h4,h5,.h6,p{
+  margin: 0;
+}
+
+/* Section Padding */
+.brands-section,
+.works-section,
+.cinch-section,
+.every-section,
+.results-section,
+.dtc-section,
+.obvi-section,
+.insights-section,
+.footer-section {
+  padding: 100px 0px;
+}
+
+/* Font Styles */
+
+.my-font-style {
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  color: #009387;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+@media only screen and (min-width:992px) {
+  h1 {
+    font-size: 75px;
+  }
+
+  h2 {
+    font-size: 65px;
+  }
+
+  h3 {
+    font-size: 60px;
+  }
+
+  h4 {
+    font-size: 55px;
+  }
+
+  h5 {
+    font-size: 34px;
+  }
+
+  h6 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .results-wrapper>div>div>div>div>h5:nth-child(1) {
+    font-size: 48px;
+    color: rgba(0, 147, 135, 0.4);
+  }
+
+  .results-wrapper>div>div>div>div:nth-child(3)>div:nth-child(1)>h5 {
+    font-size: 48px;
+  }
+}
+
+@media only screen and (min-width:577px) and (max-width:991px) {
+  h1 {
+    font-size: 65px;
+  }
+
+  h2 {
+    font-size: 55px;
+  }
+
+  h3 {
+    font-size: 50px;
+  }
+
+  h4 {
+    font-size: 45px;
+  }
+
+  h5 {
+    font-size: 28px;
+  }
+
+  h6 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .results-wrapper>div>div>div>div>h5:nth-child(1) {
+    font-size: 34px;
+    color: rgba(0, 147, 135, 0.4);
+  }
+
+  .results-wrapper>div>div>div>div:nth-child(3)>div:nth-child(1)>h5 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width:576px) {
+  h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 35px;
+  }
+
+  h5 {
+    font-size: 24px;
+  }
+
+  h6 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .results-wrapper>div>div>div>div>h5:nth-child(1) {
+    font-size: 24px;
+    color: rgba(0, 147, 135, 0.4);
+  }
+
+  .results-wrapper>div>div>div>div:nth-child(3)>div:nth-child(1)>h5 {
+    font-size: 24px;
+  }
+}
+
+
+p {
+  color: #58595D;
+}
+
+/* Button style */
+
+.my-pri-btn {
+  background-color: #FF6D2C;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 12px;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0px #2E2F35;
+  color: #fff;
+}
+
+.my-sec-btn {
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 12px;
+  color: #2E2F35;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0px #2E2F35;
+}
+
+/* Header section */
+
+.header-wrapper>div>div:nth-child(2)>div>div:nth-child(1) a {
+  font-size: 14px;
+}
+
+/* Homepage section */
+
+.homepage-section {
+  background-color: #E3F8F8;
+}
+
+.homepage-wrapper>div>div:nth-child(1)>div>div p {
+  font-size: 16px;
+}
+
+/* Works section */
+
+.works-wrapper>div:nth-child(2)>div p {
+  font-size: 14px;
+}
+
+.works-section {
+  background-color: #E3F8F8;
+}
+
+
+/* Cinch section */
+
+.cinch-section {
+  background-color: #FDF3EA;
+}
+
+.cinch-cards>div>div:nth-child(1)>div>div,
+.cinch-cards>div>div:nth-child(4)>div>div,
+.cinch-cards>div>div:nth-child(5)>div>div {
+  border: 2px solid #D1C7BE;
+  padding: 25px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.cinch-cards>div>div:nth-child(1)>div>div>div:nth-child(1),
+.cinch-cards>div>div:nth-child(4)>div>div>div:nth-child(1),
+.cinch-cards>div>div:nth-child(5)>div>div>div:nth-child(1) {
+  position: absolute;
+  top: -18px;
+  left: 45px;
+}
+
+.cinch-cards>div>div:nth-child(1)>div>div>p,
+.cinch-cards>div>div:nth-child(4)>div>div>p,
+.cinch-cards>div>div:nth-child(5)>div>div>p {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.cinch-cards>div>div:nth-child(1)>div>div>div:nth-child(3)>p,
+.cinch-cards>div>div:nth-child(4)>div>div>div:nth-child(3)>p,
+.cinch-cards>div>div:nth-child(5)>div>div>div:nth-child(3)>p {
+  font-size: 14px;
+  color: #A89B90;
+}
+
+
+/* Every section */
+
+
+.every-wrapper > div > div > div {
+  border-radius: 20px;
+  min-height: 550px;
+}
+
+
+.every-wrapper > div > div:nth-child(1) > div {
+  background-color: #FDF3EA;
+}
+
+.every-wrapper > div > div:nth-child(2) > div {
+  background-color: #E0F8F2;
+}
+
+.every-wrapper > div > div:nth-child(3) > div {
+  background-color: #EEECFF;
+}
+
+.every-wrapper > div > div:nth-child(4) > div {
+  background-color: #D9F2F7;
+}
+
+.every-wrapper > div > div:nth-child(5) > div {
+  background-color: #FAEDED;
+}
+
+.every-wrapper > div > div:nth-child(6) > div {
+  background-color: #F1F1F1;
+}
+
+.every-wrapper p{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.every-wrapper h6{
+  line-height: 36px;
+}
+
+/* Results section */
+
+.results-section {
+  background-color: #E3F8F8;
+}
+
+.results-wrapper>div>div>div>div>h5:nth-child(1) {
+  font-size: 48px;
+  color: rgba(0, 147, 135, 0.4);
+}
+
+.results-wrapper>div>div>div>div:nth-child(3)>div:nth-child(1)>h5 {
+  font-size: 48px;
+}
+
+.results-wrapper>div>div>div>div>h5:nth-child(2) {
+  color: rgba(46, 47, 53, 0.4);
+}
+
+/* Obvi section */
+
+.obvi-section{
+  background-color: #EEECFF;
+}
+
+.obvi-wrapper > div > div:nth-child(2) > div > div:nth-child(3) > div p{
+  font-size: 14px;
+}
+
+/* Try section */
+
+.try-section{
+  background-color: #FF6D2C;
+  color: #FFFFFF;
+}
+
+.try-wrapper p{
+  color: #FFFFFF;
+}
+
+.try-wrapper > div > div > div > p:nth-child(4){
+  font-size: 14px;
+}
+
+.try-wrapper > div > div > div > div p {
+  font-size: 16px;
+}
+
+/* Footer section */
+
+.footer-wrapper a{
+  font-size: 14px;
+}
+
+.footer-wrapper p{
+  font-size: 16px;
+}
+
+.footer-wrapper{
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.footer-section > div > div:nth-child(2) p{
+  font-size: 14px;
+}

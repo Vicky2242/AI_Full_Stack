@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+   <style>
+      body{
+         background-color: #fbc6c6;
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      body > div{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+         padding: 20px;
+         border-radius: 20px;
+         background-color: #FFF;
+      }
+
+      body > div >p{
+         background-color: aquamarine;
+         padding: 20px;
+         font-size: 24px;
+         border-radius: 10px;
+      }
+
+      body > div > div > button{
+         background-color: rgb(35, 171, 238);
+         padding: 8px 16px;
+         border: none;
+         border-radius: 10px;
+         color: #FFF;
+         font-weight: 600;
+         font-size: 20px;
+      }
+   </style>
+</head>
+<body>
+   
+
+   <div>
+      <h1>Counter</h1>
+
+      <p class="number">
+         0
+      </p>
+
+
+      <div>
+         <button class="decrease">-</button>
+         <button class="reset">Reset</button>
+         <button class="increase">+</button>
+      </div>
+
+   </div>
+
+   <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+   <style>
+      body{
+         background-color: #ffac4d;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+      }
+      
+      body > div{
+         background-color: white;
+         padding: 20px;
+         border-radius: 10px;
+         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      body > div > div{
+         display: flex;
+         align-items: center;
+         gap: 10px;
+      }
+
+      body > div > div > div{
+         background-color: #ffc88d;
+         padding: 20px;
+         border-radius: 10px;
+      }
+
+      textarea{
+         height: 100px;
+         width: 200px;
+         background-color: #ffdfbe;
+         padding: 10px;
+      }
+
+      textarea::placeholder{
+         color: #4f4f4f;
+      }
+
+      #morse-text{
+         height: 100px;
+         width: 200px;
+         background-color: #ffdfbe;
+         padding: 10px;
+         font-size: 24px;
+      }
+
+      button{
+         background-color: #ffac4d;
+         padding: 10px 25px;
+         font-size: 24px;
+         font-weight: 600;
+         color: #FFF;
+         border-radius: 10px;
+         border: none;
+         cursor: pointer;
+      }
+
+      h2, h1{
+         text-align: center;
+      }
+   </style>
+</head>
+<body>
+   
+
+   <div>
+      <h1>Morse Code</h1>
+
+      <div>
+         <div>
+         <h2>Normal Text</h2>
+
+         <textarea id="normal-text" placeholder="Normal text"></textarea>
+      </div>
+
+      <button class="changeButton">></button>
+
+      <div>
+         <h2>Morse Code</h2>
+
+         <div id="morse-text">
+
+         </div>
+      </div>
+      </div>
+   </div>
+
+
+   <script src="./app.js"></script>
+</body>
+</html>
